@@ -6,7 +6,7 @@ plugins {
     id 'kotlin-kapt'
 }
 
-loadExtraProperties "${rootDir}/signing.properties"
+//loadExtraProperties "${rootDir}/signing.properties"
 
 android {
     def version = new Version("${rootDir}/version.properties")
@@ -42,7 +42,7 @@ android {
         }
     }
 
-    signingConfigs {
+ /*   signingConfigs {
 
         release project.hasProperty('RELEASE_STORE_FILE') ? {
             storeFile rootProject.file("${rootDir}/${RELEASE_STORE_FILE}")
@@ -57,18 +57,18 @@ android {
             keyAlias DEBUG_KEY_ALIAS
             keyPassword DEBUG_KEY_PASSWORD
         } : {}
-    }
+    }*/
 
     buildTypes {
         debug {
-            signingConfig signingConfigs.debug
+//            signingConfig signingConfigs.debug
             buildConfigField "String", "BASE_URL", "\"https://www.themealdb.com/api/json/\""
             buildConfigField "String", "PREF_NAME", "\"viking_preferences\""
             debuggable true
         }
 
         release {
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
             minifyEnabled true
             debuggable false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
