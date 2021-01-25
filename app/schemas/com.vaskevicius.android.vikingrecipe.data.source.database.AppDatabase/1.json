@@ -1,0 +1,165 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "7d2e5df173adcc5dad5d3f1c2f64b78a",
+    "entities": [
+      {
+        "tableName": "recipe",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idMeal` INTEGER NOT NULL, `strMeal` TEXT NOT NULL, `strCategory` TEXT NOT NULL, `strArea` TEXT NOT NULL, `strInstructions` TEXT NOT NULL, `strMealThumb` TEXT NOT NULL, `strTags` TEXT NOT NULL, `strYoutube` TEXT NOT NULL, `strIngredient1` TEXT NOT NULL, `strIngredient2` TEXT NOT NULL, `strIngredient3` TEXT NOT NULL, `strIngredient4` TEXT NOT NULL, `strIngredient5` TEXT NOT NULL, `strIngredient6` TEXT NOT NULL, `strIngredient7` TEXT NOT NULL, `strMeasure1` TEXT NOT NULL, `strMeasure2` TEXT NOT NULL, `strMeasure3` TEXT NOT NULL, `strMeasure4` TEXT NOT NULL, `strMeasure5` TEXT NOT NULL, `strMeasure6` TEXT NOT NULL, `strMeasure7` TEXT NOT NULL, `strSource` TEXT NOT NULL, PRIMARY KEY(`idMeal`))",
+        "fields": [
+          {
+            "fieldPath": "idMeal",
+            "columnName": "idMeal",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMeal",
+            "columnName": "strMeal",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strCategory",
+            "columnName": "strCategory",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strArea",
+            "columnName": "strArea",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strInstructions",
+            "columnName": "strInstructions",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMealThumb",
+            "columnName": "strMealThumb",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strTags",
+            "columnName": "strTags",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strYoutube",
+            "columnName": "strYoutube",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strIngredient1",
+            "columnName": "strIngredient1",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strIngredient2",
+            "columnName": "strIngredient2",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strIngredient3",
+            "columnName": "strIngredient3",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strIngredient4",
+            "columnName": "strIngredient4",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strIngredient5",
+            "columnName": "strIngredient5",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strIngredient6",
+            "columnName": "strIngredient6",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strIngredient7",
+            "columnName": "strIngredient7",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMeasure1",
+            "columnName": "strMeasure1",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMeasure2",
+            "columnName": "strMeasure2",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMeasure3",
+            "columnName": "strMeasure3",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMeasure4",
+            "columnName": "strMeasure4",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMeasure5",
+            "columnName": "strMeasure5",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMeasure6",
+            "columnName": "strMeasure6",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMeasure7",
+            "columnName": "strMeasure7",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strSource",
+            "columnName": "strSource",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idMeal"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"7d2e5df173adcc5dad5d3f1c2f64b78a\")"
+    ]
+  }
+}
