@@ -1,6 +1,6 @@
 # Viking Recipe
 
-[![N|Solid](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.vaskevicius.android.vikingrecipe)
+[![N|Solid](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png) =100x](https://play.google.com/store/apps/details?id=com.vaskevicius.android.vikingrecipe)
 
 Viking Recipe opens the door to the world's most delicious meals, which are easily made at home. The simplest way to found the recipe for you.
 
