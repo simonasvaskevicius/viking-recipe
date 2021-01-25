@@ -13,7 +13,4 @@ Viking Recipe opens the door to the world's most delicious meals, which are easi
 
   
 ### App screenshots
-<img src="app-screenshots/Phone Screenshot 1.jpg" alt="screenshots" width="200"/>
-<img src="app-screenshots/Phone Screenshot 2.jpg" alt="screenshots" width="200"/>
-<img src="app-screenshots/Phone Screenshot 3.jpg" alt="screenshots" width="200"/>
-
+|<img src="app-screenshots/Phone Screenshot 1.jpg" alt="screenshots" width="200"/>| |<img src="app-screenshots/Phone Screenshot 2.jpg" alt="screenshots" width="200"/>| <img src="app-screenshots/Phone Screenshot 3.jpg" alt="screenshots" width="200"/>|
