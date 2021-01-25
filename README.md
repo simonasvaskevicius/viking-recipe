@@ -5,13 +5,15 @@
 
 Viking Recipe opens the door to the world's most delicious meals, which are easily made at home. The simplest way to found the recipe for you.
 
-# New Features!
 
-  - Not added yet
-  
 ### Used Api's
 | API | Link |
 | ------ | ------ |
 | TheMealDB | [https://www.themealdb.com/api.php?ref=apilist.fun][PlDb] |
 
   
+### App screenshots
+<img src="app-screenshots/Phone Screenshot 1.jpg" alt="screenshots" width="200"/>
+<img src="app-screenshots/Phone Screenshot 2.jpg" alt="screenshots" width="200"/>
+<img src="app-screenshots/Phone Screenshot 3.jpg" alt="screenshots" width="200"/>
+
