@@ -39,3 +39,8 @@ build
 *.ipr
 *~
 *.swp
+
+debug.jks
+private_key.pepk
+release.jks
+signing.properties
